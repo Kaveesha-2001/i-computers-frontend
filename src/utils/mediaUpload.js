@@ -1,9 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 
-let url = "https://qkoichhnxowhqdcmknul.supabase.co";
-let key =
-	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFrb2ljaGhueG93aHFkY21rbnVsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMzMTkzMjEsImV4cCI6MjA4ODg5NTMyMX0.9RYfcnz36A88ab4IIIc0_DC-pppbOZJXnYy39pjnWxw";
-const supabase = createClient(url, key);
+
+const supabase = createClient(import.meta.env.VITE_API_url, import.meta.env.VITE_API_key);
 
 export default function uploadMedia(file) {
 	return new Promise((resolve, reject) => {
