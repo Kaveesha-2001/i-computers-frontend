@@ -8,10 +8,10 @@ import { Toaster } from "react-hot-toast";
 import RegisterPage from "./pages/registerPage";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import ForgetPassword from "./pages/forgetPassword";
-//560545580332-0k2kji9ie4oas513ekqv4ire5nbaf671.apps.googleusercontent.com
+//906154327721-5vtambup2d1udcdn6er1l5odrkhcpnjg.apps.googleusercontent.com
 function App() {
 	return (
-		<GoogleOAuthProvider clientId="560545580332-0k2kji9ie4oas513ekqv4ire5nbaf671.apps.googleusercontent.com">			
+		<GoogleOAuthProvider clientId="906154327721-5vtambup2d1udcdn6er1l5odrkhcpnjg.apps.googleusercontent.com">			
 			<div className="w-full h-screen flex justify-center items-center bg-primary text-secondary">
 				<Toaster position="top-right" />
 				<Routes>
