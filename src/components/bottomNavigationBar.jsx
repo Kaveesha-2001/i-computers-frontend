@@ -1,7 +1,8 @@
-import { CiSearch, CiShoppingCart } from "react-icons/ci";
+import { CiSearch, CiShoppingCart, CiStar } from "react-icons/ci";
 import { GoHome } from "react-icons/go";
 import { Link } from "react-router-dom";
 import UserData from "./userData";
+
 
 export default function BottomNavigationBar(){
     return(
@@ -11,6 +12,9 @@ export default function BottomNavigationBar(){
             </Link>
             <Link to="/products" className="h-full aspect-square  flex justify-center items-center rounded-lg text-accent shadow-2xl shadow-accent text-3xl">
                 <CiSearch />
+            </Link>
+            <Link to="/reviews" className="h-full aspect-square  flex justify-center items-center rounded-lg text-accent shadow-2xl shadow-accent text-3xl">
+                <CiStar />
             </Link>
             <Link to="/cart" className="h-full aspect-square  flex justify-center items-center rounded-lg text-accent shadow-2xl shadow-accent text-3xl">
                 <CiShoppingCart />

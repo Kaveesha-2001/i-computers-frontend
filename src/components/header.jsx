@@ -11,6 +11,7 @@ export default function Header(){
             <div className="h-full hidden lg:flex justify-center items-center gap-10">
                 <Link to="/" className="text-white text-lg font-semibold">Home</Link>
                 <Link to="/products" className="text-white text-lg font-semibold">Products</Link>
+                <Link to="/reviews" className="text-white text-lg font-semibold">Reviews</Link>
                 <Link to="/contact-us" className="text-white text-lg font-semibold">Contact Us</Link>
             </div>
             <div className="h-[50px] hidden lg:flex absolute right-30  justify-center items-center">
