@@ -11,6 +11,7 @@ import NotFoundPage from "./notFoundPage";
 import LandingPage from "./landingPage";
 import ContactUsPage from "./contactUsPage";
 import ReviewsPage from "./reviewsPage";
+import ChatbotWidget from "../components/chatbotWidget";
 
 export default function HomePage(){
     return(
@@ -30,6 +31,7 @@ export default function HomePage(){
                     <Route path="/*" element={<NotFoundPage/>} />
                 </Routes>
                 <BottomNavigationBar/>
+                <ChatbotWidget/> 
             </div>
         </div>
     )
